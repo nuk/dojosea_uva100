@@ -69,6 +69,26 @@ public class Problem100Test {
 	public void should_return_17_between_7_1() throws Exception {
 		Assert.assertEquals(17, resolver.maxBetween(7, 1));
 	}
+
+	@Test
+	public void should_return_20_between_1_10() throws Exception {
+		Assert.assertEquals(20, resolver.maxBetween(1, 10));
+	}
+	
+	@Test
+	public void should_return_125_between_100_200() throws Exception {
+		Assert.assertEquals(125, resolver.maxBetween(100, 200));
+	}
+	
+	@Test
+	public void should_return_89_between_201_210() throws Exception {
+		Assert.assertEquals(89, resolver.maxBetween(201, 210));
+	}
+	
+	@Test
+	public void should_return_174_between_900_1000() throws Exception {
+		Assert.assertEquals(174, resolver.maxBetween(900, 1000));
+	}
 	
 	/*@Test
 	public void should_return_X_between_1_1000000() throws Exception {
